@@ -2,8 +2,8 @@
 
 from random import randint
 
-list = [Hilary, Rich, Roz, Derek, Robyn, Cory, Monica, Peter, Vicky]
+name_list = ["Hilary", "Rich", "Roz", "Derek", "Robyn", "Cory", "Monica", "Peter", "Vicky", "Kathryn"]
+list_length = len(name_list)
+match_index = randint(0, list_length)
 
-print(list)
-
-random.randint(1, 7)
+print(name_list)
